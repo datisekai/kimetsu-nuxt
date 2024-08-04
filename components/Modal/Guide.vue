@@ -23,13 +23,18 @@
             => Đây là một tính năng giúp anh em không phải nhập lại các số, phép
             tính.
           </i>
+          <br />
+          <b>
+            Note: Sorry anh em vì quảng cáo shopee trong vài hôm gần đây nhé,
+            quảng cáo sẽ được gỡ bỏ từ 4/8. Cảm ơn anh em đã sử dụng website.
+          </b>
         </div>
       </div>
 
       <div class="tags">
         <el-tag type="primary">#HTMT</el-tag>
         <el-tag type="primary">#Datisekai</el-tag>
-        <el-tag type="primary">#S17</el-tag>
+        <!-- <el-tag type="primary">#S17</el-tag> -->
         <el-tag type="primary">#DSF</el-tag>
       </div>
     </div>

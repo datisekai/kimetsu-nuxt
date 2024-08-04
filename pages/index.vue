@@ -203,9 +203,9 @@ const linkShoppes = [
 const handleNextCalculate = () => {
   if (oldResult.value) {
     countClick.value += 1;
-    if (countClick.value % 2 != 0) {
-      window.open("https://s.shopee.vn/1LLtEcpasP", "_blank");
-    }
+    // if (countClick.value % 2 != 0) {
+    //   window.open("https://s.shopee.vn/1LLtEcpasP", "_blank");
+    // }
 
     updateForm();
     handleCalculate();
@@ -213,11 +213,11 @@ const handleNextCalculate = () => {
 };
 const handleCalculate = async () => {
   countClick.value += 1;
-  if (countClick.value % 2 != 0) {
-    const randomLink = Math.floor(Math.random() * linkShoppes.length);
-    window.open(linkShoppes[randomLink], "_blank");
-    // window.open("https://s.shopee.vn/7pYOxERfa7", "_blank");
-  }
+  // if (countClick.value % 2 != 0) {
+  //   const randomLink = Math.floor(Math.random() * linkShoppes.length);
+  //   window.open(linkShoppes[randomLink], "_blank");
+  //   // window.open("https://s.shopee.vn/7pYOxERfa7", "_blank");
+  // }
 
   let arrayNumber: number[] = [];
   let index = 0;
