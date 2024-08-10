@@ -24,10 +24,10 @@
             tính.
           </i>
           <br />
-          <b>
+          <!-- <b>
             Note: Sorry anh em vì quảng cáo shopee trong vài hôm gần đây nhé,
             quảng cáo sẽ được gỡ bỏ từ 4/8. Cảm ơn anh em đã sử dụng website.
-          </b>
+          </b> -->
         </div>
       </div>
 

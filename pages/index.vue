@@ -194,30 +194,31 @@ const updateForm = () => {
 };
 
 const linkShoppes = [
-  "https://s.shopee.vn/1LLtEcpasP",
-  "https://s.shopee.vn/7fFwn4THhQ",
-  "https://s.shopee.vn/7fFwn4THhQ",
-  "https://s.shopee.vn/5poIbin3iy",
-  "https://s.shopee.vn/8Up3mdGZcR",
+  "https://s.shopee.vn/3VQZLOziyK",
+  "https://s.shopee.vn/700RVrcrTh",
+  "https://s.shopee.vn/8zlVtY46N3",
+  "https://s.shopee.vn/50FN8D1X60",
+  "https://s.shopee.vn/AUaJgKFaPd",
+  "https://s.shopee.vn/3q3Pk5EACI",
 ];
+
+const openLink = () => {
+  countClick.value += 1;
+  if (countClick.value % 2 != 0) {
+    const randomLink = Math.floor(Math.random() * linkShoppes.length);
+    window.open(linkShoppes[randomLink], "_blank");
+  }
+};
 const handleNextCalculate = () => {
   if (oldResult.value) {
-    countClick.value += 1;
-    // if (countClick.value % 2 != 0) {
-    //   window.open("https://s.shopee.vn/1LLtEcpasP", "_blank");
-    // }
+    openLink();
 
     updateForm();
     handleCalculate();
   }
 };
 const handleCalculate = async () => {
-  countClick.value += 1;
-  // if (countClick.value % 2 != 0) {
-  //   const randomLink = Math.floor(Math.random() * linkShoppes.length);
-  //   window.open(linkShoppes[randomLink], "_blank");
-  //   // window.open("https://s.shopee.vn/7pYOxERfa7", "_blank");
-  // }
+  openLink();
 
   let arrayNumber: number[] = [];
   let index = 0;
